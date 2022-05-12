@@ -4,7 +4,7 @@
 
 ---
 
-**HOW TO PLAY:** Send this keys to play with me: **/start  ,  /help , /New_Game  ,  /bye**
+**HOW TO PLAY:** Send this keys to play with me : **/start  ,  /help , /New_Game  ,  /bye**
 
 ---
 
