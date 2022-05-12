@@ -22,7 +22,7 @@ def send_welcome(message):
         itembtn1 = types.KeyboardButton('x')
         x = int(message.text)
         if x==r:
-            bot.reply_to(message,"Congrajulation, You Win✅❤")
+            bot.reply_to(message,"Congrajulation, You Win ✅ ❤ ")
         elif x<r:
             bot.reply_to(message,"Go up⏫")
         elif x>r: 
