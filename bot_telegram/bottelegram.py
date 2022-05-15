@@ -15,7 +15,7 @@ def send_welcome(message):
 
 @kia_bot.message_handler(commands=['help'])
 def send_help(message):
-    kia_bot.reply_to(message, "Send this keys to play with me: /start  ,  /help , /game , /age , /voice ,  /bye  .  ")
+    kia_bot.reply_to(message, "Send this keys to play with me: /start  ,  /help , /game , /age , /qrcod , /voice ,  /bye  .  ")
 
 @kia_bot.message_handler(commands=['game'])
 def send_number(message):
