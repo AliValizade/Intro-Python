@@ -32,8 +32,8 @@ ball.shape("circle")
 ball.color("blue")
 ball.penup()
 ball.goto(0, 0)
-ball.dx = 0.2
-ball.dy = 0.2
+ball.dx = 0.3
+ball.dy = 0.1
 
 # Move Players
 def player_1_up():
@@ -82,11 +82,11 @@ while True:
         ball.setx(350)
         ball.dx *= -1
     # Ball & Players collisions
-    if (ball.xcor() > 290 and ball.xcor() < 330) and (ball.ycor() < player_1.ycor() + 40 and ball.ycor() > player_1.ycor() -40):
-        ball.setx(320)
+    if (ball.xcor() < 290 and ball.xcor() > 330) and (ball.ycor() < player_1.ycor() + 50 and ball.ycor() > player_1.ycor() -50):
+        ball.setx(290)
         ball.dx *= -1
-    if (ball.xcor() < -290 and ball.xcor() > -330) and (ball.ycor() < player_2.ycor() + 40 and ball.ycor() > player_2.ycor() -40):
-        ball.setx(320)
+    if (ball.xcor() < -290 and ball.xcor() > -330) and (ball.ycor() < player_2.ycor() + 50 and ball.ycor() > player_2.ycor() -50):
+        ball.setx(290)
         ball.dx *= -1
 
 
