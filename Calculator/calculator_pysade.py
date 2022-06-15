@@ -30,7 +30,6 @@ class Calculator(QMainWindow):
         self.ui.equal_btn.clicked.connect(self.show_equal)
         self.ui.c_btn.clicked.connect(self.show_c)
 
-
     def show_1(self):
         if self.ui.result_label.text() == '0':
             self.ui.result_label.setText('1')
@@ -120,12 +119,8 @@ class Calculator(QMainWindow):
             self.ui.result_label.setText(str(result))
             self.multiplyNum1 = 0
 
-
-    
     def show_c(self):
         self.ui.result_label.setText('0')
-    
-
 
 app = QApplication([])
 my_calculator = Calculator()
